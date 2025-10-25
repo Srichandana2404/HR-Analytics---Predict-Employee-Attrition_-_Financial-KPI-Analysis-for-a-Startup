@@ -1,0 +1,43 @@
+# 🧠 HR Analytics-Employee Attrition Prediction
+
+## 📌 Overview
+This project predicts employee attrition using HR analytics and machine learning. It identifies key risk factors and helps HR teams take proactive retention measures.
+
+## 📂 Dataset Features
+- **Demographics**: Age, Gender, Marital Status
+- **Job Details**: Department, Job Role, Years at Company, OverTime
+- **Satisfaction Metrics**: Job Satisfaction, Environment Satisfaction, Work-Life Balance
+- **Compensation**: Monthly Income, Percent Salary Hike
+- **Target**: Attrition (Yes/No)
+
+## ⚙️ Workflow
+
+### 1. Data Preprocessing
+- Handled missing values and outliers
+- Encoded categorical variables (Label Encoding, One-Hot Encoding)
+- Scaled features using StandardScaler
+
+### 2. Exploratory Data Analysis (EDA)
+- Visualized attrition trends by department, age group, and job role
+- Used heatmaps and boxplots to identify key drivers
+- Found OverTime and low satisfaction as major risk factors
+
+### 3. Model Building
+- Trained classifiers: Logistic Regression, Random Forest, XGBoost
+- Evaluated using Accuracy, Precision, Recall, F1-score, ROC-AUC
+
+### 4. Insights & Business Impact
+- OverTime, low Job Satisfaction, and poor Work-Life Balance strongly correlate with attrition
+- Suggested HR interventions for high-risk segments
+- Enabled data-driven retention strategies
+
+## 📊 Dashboard (Optional)
+- Attrition by Department
+- Satisfaction vs Attrition
+- Monthly Income Distribution
+- Risk Score by Employee Segment
+
+## 🛠️ Tools & Technologies
+- Python: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- Jupyter Notebook
+- Power BI / Tableau (if dashboard included)
